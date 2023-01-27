@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Currículum Vitae - Alexa Ward</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <header id="top">
+        <div id="cv"><p>Currículum Vitae</p></div>
+        <div id="header-centrado">
+            <a href="index.html"><img src="https://randomuser.me/api/portraits/women/72.jpg" alt="Foto de Alexa Ward" id="foto-perfil" /></a>
+            <h1><a href="index.html" id="titulo">Alexa Ward</a></h1>
+            <p id="hola">Hola! me llamo Alexa. Actualmente estas viendo mi currículum en color <strong id="pongo-color">naranja</strong></p>
+        </div><!--fin header-centrado-->
+        <nav id="nav-menu">
+            <ul id="menu">
+                <li><a href="#formacion"><i class="fas fa-user-graduate icon-menu"></i></i> Formación</a></li>
+                <li><a href="#experiencia"><i class="fas fa-globe icon-menu"></i> Experiencia</a></li>
+                <li><a href="#capacitacion"><i class="fas fa-file-alt icon-menu"></i> Capacitación</a></li>
+                <li><a href="#idiomas"><i class="fas fa-book icon-menu"></i> Idiomas</a></li>
+                <li><a href="#informacion"><i class="fas fa-info icon-menu"></i> Información Personal</a></li>
+            </ul>
+            <ul id="menu-responsive">
+                <li><a href="javascript:void(0);" id="menu-resp"><i class="fas fa-bars"></i> Menú</a></li>
+            </ul>
+        </nav>
+        <div id="mresp">
+            <ul id="menu-nav">
+                <li><a href="#formacion"><i class="fas fa-user-graduate icon-menu"></i></i> Formación</a></li>
+                <li><a href="#experiencia"><i class="fas fa-globe icon-menu"></i> Experiencia</a></li>
+                <li><a href="#capacitacion"><i class="fas fa-file-alt icon-menu"></i> Capacitación</a></li>
+                <li><a href="#idiomas"><i class="fas fa-book icon-menu"></i> Idiomas</a></li>
+                <li><a href="#informacion"><i class="fas fa-info icon-menu"></i> Información Personal</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+
+        <div class="barra-colores">
+            <p class="haz">Elije un color:</p>
+            <button type="button" id="c1" class="color verde" title="Verde" onclick="cambiarColor('#A5BF29','#96AD25',this,'verde')"></button>
+            <button type="button" id="c2" class="color celeste" title="Celeste" onclick="cambiarColor('#2CD3D9','#21B3B6',this,'celeste')"></button>
+            <button type="button" id="c3" class="color naranja activo" title="Naranja" onclick="cambiarColor('#FCB32C','#F99A28',this,'naranja')"></button>
+            <div class="clear"></div>
+        </div>
+
+        <div id="formacion" class="info-box for">
+            <i class="fas fa-user-graduate icon-seccion icong-naranja"></i>
+            <p>
+                <span>Formación</span><br/>
+                <i class="fas fa-graduation-cap ico-seccion"></i> <strong>Analista de Sistemas Informáticos</strong><br/>
+                <span class="detalle">UADER - 2013</span><br/>
+                <i class="fas fa-graduation-cap ico-seccion"></i> <strong>Profesorado en Educación Técnico Profesional</strong><br/>
+                <span class="detalle">IESP - 2017</span>
+            </p>
+            <div class="clear"></div>
+        </div><!--fin info-box-->
+
+        <div id="experiencia" class="info-box exp">
+            <i class="fas fa-globe icon-seccion icong-naranja"></i>
+            <p>
+                <span>Experiencia</span><br/>
+                <i class="fas fa-briefcase ico-seccion"></i> <strong>2016 hasta la fecha:</strong> Contratada por la Dirección General de Informática de la provincia de Entre Ríos para la participación en el análisis y desarrollo de distintos sistemas tales como el Registro Civil Digital, Agenda Política, Sistema Jurídico de la Provincia de Entre Ríos, Sistema de Trámites Internos para Municipios, Sistema de Subsidios y Sistema de alta de vínculos y personas físicas en la Base de Datos única de la Provincia de Entre Ríos.</a><br/><br/>
+                <i class="fas fa-briefcase ico-seccion"></i> <strong>2016:</strong> Contratada por la Universidad Nacional de General San Martin, Provincia de Buenos Aires en convenio con el Ministerio de Educación, para realizar el desarrollo de un Juego Educativo que fue incluido en las netbooks del Programa Nacional Conectar Igualdad.</a><br/><br/>
+                <i class="fas fa-briefcase ico-seccion"></i> <strong>2015 a 2016:</strong> Contratada por la OEI para coordinar la realización integral de un portal interactivo con el objetivo de fortalecer los procesos de inclusión digital, mejoramiento de la calidad de la educación y alfabetización digital de la población en el marco del Programa Nacional Conectar Igualdad.</a><br/><br/>
+                <i class="fas fa-briefcase ico-seccion"></i> <strong>2010-2014:</strong> Administradora de Red en Escuela Agrotécnica Las Delicias. Entre Ríos</a><br/><br/>
+                <i class="fas fa-briefcase ico-seccion"></i> <strong>2005-2015:</strong> Docente de Informática en Escuela Agrotécnica las Delicias. Entre Ríos</a><br/>
+            </p>
+            <div class="clear"></div>
+        </div><!--fin info-box-->
+
+        <div id="capacitacion" class="info-box cap">
+            <i class="fas fa-file-alt icon-seccion icong-naranja"></i>
+            <p>
+                <span>Capacitación</span><br/>
+                <i class="fas fa-file-alt ico-seccion"></i> <strong>2010:</strong> Capacitación de “Introducción a la Administración de Servidores Escolares y Aula Digital 1:1” dictado por la empresa EXO S.A el día 19 y 20 de mayo de 2010 en la Ciudad Autónoma de Buenos Aires.</a><br/><br/>
+                <i class="fas fa-file-alt ico-seccion"></i> <strong>2010:</strong> Asistencia a la segunda jornada de capacitación “Administrando Redes” en el marco del programa “Una computadora para cada alumno” el día 16 de junio de 2011 en el Salón “San Martín” del CGE de la ciudad de Paraná, Entre Ríos.</a><br/><br/>
+                <i class="fas fa-file-alt ico-seccion"></i> <strong>2010:</strong> Asistencia a la capacitación docente “Una computadora para cada alumno” desarrollada el día 26 de agosto de 2010 en la EET N°5 “Malvinas Argentinas” de la ciudad de Paraná, Entre Ríos.</a><br/><br/>
+                <i class="fas fa-file-alt ico-seccion"></i> <strong>2011:</strong> Asistencia al “3er encuentro de Capacitación para Referentes Técnicos de Escuelas Secundarias, IFD, Escuelas Técnicas y Agrotécnicas” organizada por la Coordinación General de la Información y la Comunicación del Consejo General de Educación de Entre Ríos para el Programa Conectar Igualdad.</a><br/><br/>
+                <i class="fas fa-file-alt ico-seccion"></i> <strong>2012:</strong> Asistencia a las Primeras Jornadas de Software Libre para el Sistema Educativo, organizada por la Coordinación General de Tecnologías de la Información y Comunicación del Consejo General de Educación de la provincia de Entre Ríos y por el Programa Nacional Conectar Igualdad.</a><br/><br/>
+                <i class="fas fa-file-alt ico-seccion"></i> <strong>2018:</strong> Curso “Desarrollo de Aplicaciones Móviles” desarrollado en el marco del Plan de capacitaciones de la Administración Pública de Entre Ríos, organizado por la Facultad de Ciencia y Tecnología de la Universidad Autónoma de Entre Ríos y la Secretaria de Modernización del Estado, Ciencia y Tecnología, con una carga horaria de 26 horas reloj.</a><br/><br/>
+                <i class="fas fa-file-alt ico-seccion"></i> <strong>2018:</strong> Curso “Tecnologías utilizadas en el sistema de liquidaciones y RRHH de la provincia de Entre Ríos” desarrollado en el marco del Plan de capacitaciones de la Administración Pública de Entre Ríos, organizado por la Facultad de Ciencia y Tecnología de la Universidad Autónoma de Entre Ríos y la Secretaria de Modernización del Estado, Ciencia y Tecnología, con una carga horaria de 26 horas reloj.</a><br/><br/>
+                <i class="fas fa-file-alt ico-seccion"></i> <strong>2022:</strong> Primera etapa del Curso “Argentina Programa” denominada “Se programar” con una duración total de 60 horas reloj. Se desarrollaron tres módulos: Programación orientada a objetos, programación en JavaScript y programación en el lenguaje RUBY.</a><br/><br/>
+            </p>
+            <div class="clear"></div>
+        </div><!--fin info-box-->
+
+        <div id="idiomas" class="info-box idi">
+            <i class="fas fa-book icon-seccion icong-naranja"></i>
+            <p>
+                <span>Idiomas</span>
+                <i class="fas fa-book ico-seccion"></i><strong>1991 a 1996:</strong> Curso de Ingles para la comunicación en el Instituto ADVANCE School of English. Capacitada para comprensión, redacción y traducción del idioma. Duración de 6 años escolares.<br/>
+            </p>
+            <div class="clear"></div>
+        </div><!--fin info-box-->
+
+
+        <div id="informacion" class="info-box inf">
+            <i class="fas fa-info icon-seccion icong-naranja"></i>
+            <p>
+                <span>Información Personal</span>
+                <i class="fas fa-at ico-seccion"></i> E-mail: <a href="mailto:alexaaward@example.com" id="email">alexa@example.com</a><br/>
+                <i class="fas fa-calendar-alt ico-seccion"></i> Nacimiento: 25/12/1990<br/>
+                <i class="fas fa-map-marker-alt ico-seccion"></i> Dirección: Bolivia 6058, CABA<br/>
+                <i class="fas fa-mobile-alt ico-seccion"></i> Celular: (290) 906-4575
+            </p>
+            <div class="clear"></div>
+        </div><!--fin info-box-->
+
+    </section>
+    <footer id="pie">
+        <p>Última actualización: 24/01/2023</p>
+    </footer>
+
+    <script type="text/javascript" src="js/general.js"></script>
+</body>
+</html>
